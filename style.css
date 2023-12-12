@@ -1,4 +1,66 @@
-body{
-    background-color: black;
+body {
+    background: radial-gradient(ellipse, #3494e6, #b96eec);
+    padding: 10px;
     color: white;
+    margin: 0;
 }
+h1{
+    text-align: center;
+
+}
+
+.catalogo {
+    text-align: center;
+    padding: 10px;
+}
+
+.introdução {
+    background-color: rgba(255, 0, 0, 0.3);
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+.introdução:hover {
+    background-color: rgb(159, 50, 202);
+}
+
+.imagen-container {
+    display: inline-block;
+}
+
+.imagen-container img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.imagenes-container {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+
+.imagen1 {
+    width: 265px;
+    height: auto; 
+}
+
+.imagen2{
+    width: 265px;
+height: auto; 
+}
+
+.imagen3{
+    width: 265px;
+    height: auto; 
+}
+
+.imagen4{
+    width: 265px;
+    height: auto; 
+}
+
+.imagen5{
+    width: 265px;
+    height: auto; 
+}   
