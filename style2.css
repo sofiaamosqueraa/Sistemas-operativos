@@ -1,0 +1,22 @@
+.collage {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 10px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+}
+
+.collage img {
+    width: 100%; 
+    height: auto; 
+    border: 1px solid #ccc; 
+    transition: transform 0.3s ease; 
+}
+
+.collage img:hover {
+    transform: scale(1.1); 
+}
