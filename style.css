@@ -18,7 +18,7 @@ h1 {
 }
 
 .introdução {
-    background-color: rgba(255, 0, 0, 0.3);
+    background-color: rgba(255, 1, 1, 0.3);
     padding: 20px;
     transition: background-color 0.3s;
 }
