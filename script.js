@@ -4,3 +4,10 @@ function abrirNuevaVentana(numeroImagen) {
 
     window.location.href = nombreArchivo;
 }
+
+function toggleAnimation(element) {
+    element.classList.toggle("clicked");
+  }
+  
+
+  

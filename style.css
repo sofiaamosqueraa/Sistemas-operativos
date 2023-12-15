@@ -3,10 +3,13 @@ body {
     padding: 10px;
     color: white;
     margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    overflow-x: hidden;
 }
-h1{
-    text-align: center;
 
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
 }
 
 .catalogo {
@@ -32,40 +35,54 @@ h1{
     max-width: 100%;
     height: auto;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagen-container img:hover {
+    transform: rotate(15deg); 
 }
 
 .imagenes-container {
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
-
-.imagen1 {
+.imagen1,
+.imagen2,
+.imagen3,
+.imagen4,
+.imagen5 {
     width: 265px;
-    height: auto; 
+    height: auto;
 }
 
-.imagen2{
-    width: 265px;
-height: auto; 
-}
-
-.imagen3{
-    width: 265px;
-    height: auto; 
-}
-
-.imagen4{
-    width: 265px;
-    height: auto; 
-}
-
-.imagen5{
-    width: 265px;
-    height: auto; 
-}   
-
-.references{
+.references {
     text-align: center;
     color: white;
 }
+  
+  .bios-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .bios-image {
+    width: 250px;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .bios-text {
+    margin-left: 20px;
+  } 
+
+  .bios-container.clicked .bios-image {
+    transform: rotate(180deg);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+
+
